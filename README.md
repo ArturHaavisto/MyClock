@@ -11,7 +11,7 @@ This is my project to create a clock app that I like. I don't like how other clo
 
 ## Plan
 
-I have no specific plan.
+[to plan](plan.docx)
 
 ## Progress
 
