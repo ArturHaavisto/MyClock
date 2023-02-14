@@ -63,21 +63,7 @@ fun CardWithShape(packageContext : MainActivity) {
         //modifier = paddingModifier
         modifier = Modifier.padding(10.dp)
     ) {
-        Row {
-            Text(text = "Round corner shape", Modifier.padding(10.dp))
-            var onState by remember { mutableStateOf(true) }
 
-            Button(
-                onClick = { onState = !onState }
-            ) {
-                Text(if (onState) "Start" else "Pause")
-            }
-            Button(
-                onClick = { packageContext.myService() }
-            ) {
-                Text("End")
-            }
-        }
     }
 }
 
